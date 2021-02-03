@@ -1,0 +1,30 @@
+<mat-card class="customized-card">
+    <mat-card-title>Card title</mat-card-title>
+
+    <mat-card-subtitle class="customized-card-subtitle">Card subtitle</mat-card-subtitle>
+
+    <mat-card-content>
+        Sample content: "{{textVariable}}"
+    </mat-card-content>
+
+    <mat-card-actions>
+        <mat-checkbox class="customized-checkbox" [(ngModel)]="checkBoxState" >{{returnCBstate()}}</mat-checkbox>
+
+        <form class="customized-form">
+            <mat-form-field>
+                <mat-label class="customized-label">{{changingLabelText}}</mat-label>
+                <input matInput type="text" placeholder="Type something here..." [(ngModel)]="changingLabelText" name="textinput"> 
+                <!-- (input)="GetInputValue" -->
+            </mat-form-field>
+        </form>
+
+        <div class="buttonsArea">
+            <button mat-raised-button color="primary" (click)="CountUp()">Increment</button>
+            <button mat-raised-button color="warn" (click)="CountDown()">Decrement</button>
+            <div class="counter">Total count: <b>{{b1Counter}}</b></div>
+        </div>
+    </mat-card-actions>
+
+    <mat-card-footer>Some footer content</mat-card-footer>
+    <!-- <p>{{changingLabelText}}</p> -->
+</mat-card>

@@ -1,0 +1,45 @@
+.customized-card
+{
+    margin-left: 150px;
+    width: 500px;
+    border: 1px solid #000;
+    background-color: #f0f0f0;
+    color: #000;
+}
+
+.customized-card-subtitle
+{
+    color: #404040;
+}
+
+.customized-checkbox
+{
+    background-color: indigo;
+    color: white;
+    padding: 16px;
+    font-size: 24px;
+}
+
+.customized-form
+{
+    padding: 20px;
+    background-color: #808080;
+}
+
+.buttonsArea
+{
+    padding: 20px;
+}
+
+.counter
+{
+    display: inline-block;
+    font-size: 24px;
+    margin-left: 20px;
+}
+
+.customized-label
+{
+    font-size: 20px;
+    color: yellow;
+}
